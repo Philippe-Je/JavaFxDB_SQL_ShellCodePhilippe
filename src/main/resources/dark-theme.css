@@ -1,0 +1,125 @@
+.root {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: white;
+}
+
+.menu-bar {
+    -fx-background-color: #3c3f41;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+
+.menu-item {
+    -fx-background-color: #3c3f41;
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+}
+
+.menu-item:focused {
+    -fx-background-color: #4b6eaf;
+}
+
+.text-area {
+    -fx-control-inner-background: #3c3f41;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.dialog-pane {
+    -fx-background-color: #2b2b2b;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #4b6eaf;
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-background-color: #2b2b2b;
+    -fx-border-color: #3c3f41;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #4b6eaf;
+    -fx-border-width: 0 1px 1px 0;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
+
+.table-view .table-cell {
+    -fx-border-color: #3c3f41;
+    -fx-border-width: 0 1px 1px 0;
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #323232;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #2b2b2b;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #4b6eaf;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: white;
+}
+
+.table-view:focused {
+    -fx-background-color: #2b2b2b;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #4b6eaf;
+}
+
+.table-view:focused .table-row-cell:filled:selected .table-cell {
+    -fx-text-fill: white;
+}
+
+.table-view .placeholder .label {
+    -fx-text-fill: white;
+}
+
+.scroll-bar {
+    -fx-background-color: #2b2b2b;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #4b6eaf;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #3c3f41;
+}
